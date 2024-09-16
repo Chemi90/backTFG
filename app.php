@@ -37,7 +37,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HTTPHEADER, [
     'Content-Type: application/json',
-    'Authorization: Bearer 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'
+    'Authorization: Bearer API_KEY'
 ]);
 
 // Ejecuta la petición
